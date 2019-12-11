@@ -1,0 +1,25 @@
+{
+  "name": "webdriverio-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "Bruno Hercílio Vargas Exterckotter",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^5.16.13"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^5.16.13",
+    "@wdio/local-runner": "^5.16.13",
+    "@wdio/mocha-framework": "^5.16.13",
+    "@wdio/spec-reporter": "^5.16.11",
+    "@wdio/sync": "^5.16.14",
+    "assert": "^2.0.0",
+    "chromedriver": "^78.0.1",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
